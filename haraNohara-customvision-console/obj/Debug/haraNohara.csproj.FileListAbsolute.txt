@@ -1,0 +1,17 @@
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\haraNohara.exe.config
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\haraNohara.exe
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\haraNohara.pdb
+c:\Repos\haraNohara\haraNohara\haraNohara\obj\Debug\haraNohara.exe
+c:\Repos\haraNohara\haraNohara\haraNohara\obj\Debug\haraNohara.pdb
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\Microsoft.Cognitive.CustomVision.Prediction.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\Newtonsoft.Json.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.IO.FileSystem.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.IO.FileSystem.Primitives.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.Net.Http.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.Security.Cryptography.Algorithms.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.Security.Cryptography.Encoding.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.Security.Cryptography.Primitives.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\Microsoft.Cognitive.CustomVision.Prediction.pdb
+c:\Repos\haraNohara\haraNohara\haraNohara\bin\Debug\Newtonsoft.Json.xml

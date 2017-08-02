@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaraNoHara", "HaraNoHara\HaraNoHara.csproj", "{D027CFE6-DF27-42FD-AE8D-864A7B71DDB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaraNoHara.Bots", "HaraNoHara\HaraNoHara.Bots.csproj", "{D027CFE6-DF27-42FD-AE8D-864A7B71DDB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaraNoHara.Web", "HaraNoHara.Web\HaraNoHara.Web.csproj", "{879F9940-F1C4-44BB-B12A-FD95A8E5F2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaraNoHara.Web.Tests", "HaraNoHara.Web.Tests\HaraNoHara.Web.Tests.csproj", "{2704BB7E-516C-4225-BB72-D301CBEA32A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D027CFE6-DF27-42FD-AE8D-864A7B71DDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D027CFE6-DF27-42FD-AE8D-864A7B71DDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D027CFE6-DF27-42FD-AE8D-864A7B71DDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879F9940-F1C4-44BB-B12A-FD95A8E5F2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879F9940-F1C4-44BB-B12A-FD95A8E5F2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879F9940-F1C4-44BB-B12A-FD95A8E5F2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879F9940-F1C4-44BB-B12A-FD95A8E5F2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2704BB7E-516C-4225-BB72-D301CBEA32A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2704BB7E-516C-4225-BB72-D301CBEA32A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2704BB7E-516C-4225-BB72-D301CBEA32A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2704BB7E-516C-4225-BB72-D301CBEA32A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

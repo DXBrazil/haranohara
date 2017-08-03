@@ -6,16 +6,17 @@ using Microsoft.Cognitive.CustomVision;
 using System.Net.Http;
 using System.IO;
 using HaraNoHara.Web.Models;
+using HaraNoHara.Web.Controllers;
 
 namespace HaraNoHara.Web.Prediction
 {
     public class Prediction
     {
 
-        static void MakePrediction()
+       public static void MakePrediction()
         {
 
-            var predictionKey = "insert your prediction key here";
+            var predictionKey = "031439b0f9ec4549995e53e32971c605";
 
 
             PredictionEndpointCredentials predictionEndpointCredentials = new PredictionEndpointCredentials(predictionKey);
@@ -29,10 +30,11 @@ namespace HaraNoHara.Web.Prediction
 
             Console.WriteLine("Making a prediction:");
 
-            var testImage = new MemoryStream(File.ReadAllBytes(@"insert the picture you want to compare here"));
+            var testImage = HomeController.HaraFinalImage;
+                
 
 
-            var projectId = new Guid("insert the project guid here");
+            var projectId = new Guid("62ccee84-08f9-44e7-89f4-6b5b76894a8a");
 
             var result = endpoint.PredictImage(projectId, testImage, null, null);
 

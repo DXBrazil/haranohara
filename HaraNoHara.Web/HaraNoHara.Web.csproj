@@ -177,11 +177,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PredictionResultsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\HaraNoHaraWebContext.cs" />
     <Compile Include="Models\PredictionKey.cs" />
     <Compile Include="Models\PredictionResults.cs" />
     <Compile Include="Prediction\Prediction.cs" />
@@ -222,13 +220,8 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Results.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\PredictionResults\Create.cshtml" />
-    <Content Include="Views\PredictionResults\Delete.cshtml" />
-    <Content Include="Views\PredictionResults\Details.cshtml" />
-    <Content Include="Views\PredictionResults\Edit.cshtml" />
-    <Content Include="Views\PredictionResults\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
